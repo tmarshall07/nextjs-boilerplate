@@ -5,7 +5,7 @@ import Link from 'next/link';
 import styled from 'styled-components';
 import { transparentize, lighten, darken } from 'polished';
 
-import colors from '../helpers/colors';
+import colors from '../styles/colors';
 
 const Container = styled.div`
   display: flex;

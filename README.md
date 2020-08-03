@@ -1,5 +1,5 @@
 # NextJS boilerplate
-Static site template with Styled Components, Typescript, ESLint, and Prettier.
+Static site template with Styled Components, Styled System, Typescript, ESLint, and Prettier, along with some basic UI components.
 
 ## Stack
 [Next.js](https://nextjs.org/docs/getting-started) and React.js for the static site framework, along with [styled components](https://www.styled-components.com/) for the styles and ESLint for linting.
