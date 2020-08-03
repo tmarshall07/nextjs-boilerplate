@@ -1,4 +1,6 @@
+import React from 'react';
 import styled from 'styled-components';
+
 import Header from './Header';
 import Footer from './Footer';
 import Block from './Block';
@@ -13,7 +15,7 @@ const Container = styled.div`
   align-items: center;
 `;
 
-function Page() {
+const Page: React.FC = () => {
   return (
     <Wrapper>
       <Header />
@@ -25,6 +27,6 @@ function Page() {
       </Content>
     </Wrapper>
   );
-}
+};
 
 export default Page;

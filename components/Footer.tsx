@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 import { lighten } from 'polished';
 
@@ -20,7 +21,7 @@ const Text = styled.p`
   color: ${lighten(0.25, colors.grey)};
 `;
 
-function Footer() {
+const Footer: React.FC = () => {
   return (
     <Container>
       <Text>
@@ -33,6 +34,6 @@ function Footer() {
       </Text>
     </Container>
   );
-}
+};
 
 export default Footer;

@@ -1,9 +1,10 @@
+import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 import { Wrapper, Content } from '../styles/page';
 
-function Home() {
+const Home: React.FC = () => {
   return (
     <Wrapper>
       <Header />
@@ -12,6 +13,6 @@ function Home() {
       </Content>
     </Wrapper>
   );
-}
+};
 
 export default Home;

@@ -2,12 +2,16 @@ import React, { ReactNode } from 'react';
 
 import styled from 'styled-components';
 
+type WrapperProps = {
+  background?: string;
+};
+
 const Wrapper = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
 
-  background: ${(props) => props.background};
+  background: ${(props: WrapperProps) => props.background};
 `;
 
 const Container = styled.div`
@@ -15,7 +19,7 @@ const Container = styled.div`
 `;
 
 type Props = {
-  background: string;
+  background?: string;
   children: ReactNode;
 };
 
