@@ -63,8 +63,6 @@ const Header: React.FC = () => {
       <Head>
         <meta charSet="utf-8" />
         <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700&display=swap" rel="stylesheet" />
-        <script src="/libs/anime.min.js" />
-        <script src="/libs/exif.js" />
       </Head>
       <style jsx global>
         {`
